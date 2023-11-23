@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-box {
+  width: 100%;
   min-height: 100vh;
+  background: #ebf0f4;
+}
+input {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  padding-left: 3rem;
+}
+
+form {
+  width: 90%;
+  margin: auto;
+}
+.input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-box img:nth-child(1) {
+  position: absolute;
+  left: 1rem;
+}
+.input-right {
+  position: absolute;
+  right: 1rem;
+}
+.map-box img {
+  width: 100%;
+}
+textarea {
+  width: 98%;
+  height: 200px;
+  border: none;
+  border-radius: 6px;
+  padding: 1em;
+}
+.add-lead {
+  width: 100%;
+  background: #3a4b86;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 700;
+}
+
+.header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 92%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.header div {
+  display: flex;
+  justify-content: space-between;
+}
+.cancel-btn {
+  color: #df3737;
+  border: 0.1px solid #df3737;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+form label {
+  color: #000;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.products {
+margin-top: 15px;
+margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+select{
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  padding-left: 3rem;
+
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
 }
+
+
+
